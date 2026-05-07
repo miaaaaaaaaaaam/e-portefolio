@@ -1,0 +1,102 @@
+/* style.css : styles simples pour l'e-portfolio */
+
+/* Style général de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Style pour l'en-tête du site */
+.header {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dddddd;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style pour le titre principal */
+.header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+/* Style pour le menu de navigation */
+.menu {
+  margin-top: 12px;
+}
+
+.menu a {
+  color: #333333;
+  text-decoration: none;
+  margin: 0 8px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.menu a:hover {
+  text-decoration: underline;
+}
+
+/* Style commun pour les sections principales */
+.section,
+.compétences {
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+/* Style des titres de section */
+.section h2,
+.compétences h2 {
+  margin-top: 0;
+  color: #111111;
+}
+
+/* Style pour les projets */
+.project {
+  border-top: 1px solid #eeeeee;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+.project:first-child {
+  border-top: none;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.project h3 {
+  margin-bottom: 8px;
+}
+
+/* Style du pied de page */
+.footer {
+  text-align: center;
+  padding: 15px 20px;
+  color: #666666;
+  font-size: 0.9rem;
+}
+
+/* Style des liens dans le contenu */
+a {
+  color: #1a73e8;
+}
+
+a:hover {
+  color: #174ea6;
+}
+
+/* Style simple pour mobile : le menu devient vertical */
+@media (max-width: 600px) {
+  .menu a {
+    display: block;
+    margin: 8px 0;
+  }
+}
